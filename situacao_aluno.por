@@ -11,6 +11,10 @@ programa
 		{
 			escreva("APROVADO")
 		}
+		senao se (nota >= 4.0)
+		{
+			escreva("RECUPERAÇÃO")
+		}
 		senao
 		{
 			escreva("REPROVADO")
